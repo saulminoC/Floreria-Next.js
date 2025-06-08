@@ -1,0 +1,68 @@
+import type { Product } from "@/contexts/cart-context"
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Ramo de Rosas Rojas",
+    price: 45.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Hermoso ramo de 12 rosas rojas frescas, perfecto para ocasiones especiales.",
+    category: "ramos",
+  },
+  {
+    id: "2",
+    name: "Arreglo Primaveral",
+    price: 32.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Colorido arreglo con flores de temporada en tonos pastel.",
+    category: "arreglos",
+  },
+  {
+    id: "3",
+    name: "Planta Suculenta",
+    price: 18.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Planta suculenta de bajo mantenimiento, ideal para decorar espacios.",
+    category: "plantas",
+  },
+  {
+    id: "4",
+    name: "Ramo de Girasoles",
+    price: 38.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Alegre ramo de girasoles que ilumina cualquier ambiente.",
+    category: "ramos",
+  },
+  {
+    id: "5",
+    name: "Orquídea Blanca",
+    price: 55.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Elegante orquídea blanca en maceta decorativa.",
+    category: "plantas",
+  },
+  {
+    id: "6",
+    name: "Arreglo Romántico",
+    price: 42.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Delicado arreglo con rosas rosadas y flores complementarias.",
+    category: "arreglos",
+  },
+  {
+    id: "7",
+    name: "Cactus Decorativo",
+    price: 15.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Pequeño cactus en maceta de cerámica artesanal.",
+    category: "plantas",
+  },
+  {
+    id: "8",
+    name: "Ramo de Tulipanes",
+    price: 29.99,
+    image: "/placeholder.svg?height=300&width=300",
+    description: "Fresco ramo de tulipanes multicolores de temporada.",
+    category: "ramos",
+  },
+]
