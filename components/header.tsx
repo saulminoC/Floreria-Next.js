@@ -62,10 +62,7 @@ export function Header() {
               </DropdownMenu>
             ) : (
               <Link href="/login">
-                <Button variant="ghost" size="sm" className="text-sm">
-                  <User className="h-4 w-4 mr-2" />
-                  Iniciar Sesión
-                </Button>
+              
               </Link>
             )}
 
